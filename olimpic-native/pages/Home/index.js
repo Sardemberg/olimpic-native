@@ -3,10 +3,10 @@ import { StyleSheet, ScrollView, View, Text } from 'react-native';
 import {
   SafeAreaView,
 } from 'react-native-safe-area-context';
-import NavBar from '../components/Navbar';
-import Player from '../components/Player';
-import SearchComponent from '../components/SearchComponent';
-import football from '../service/football';
+import NavBar from '../../components/Navbar';
+import Player from '../../components/Player';
+import SearchComponent from '../../components/SearchComponent';
+import football from '../../service/football';
 
 export default function Home() {
   const [players, setPlayers] = useState([]);
